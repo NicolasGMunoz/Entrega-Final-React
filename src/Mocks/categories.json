@@ -1,0 +1,303 @@
+[
+    {
+        "id": 15,
+        "category": "IMP3D",
+        "imagen": "https://i.ibb.co/Yc4xzk2/imp3d-400x400.png",
+        "products": [
+            {
+                "id": 3,
+                "name": "Mate Snorlax",
+                "price": 3000,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Anime"],
+                "stock": 5,
+                "image": "https://i.ibb.co/Bfw41yY/mate-Snorlax.png"
+            },
+        
+            {
+                "id": 4,
+                "name": "Mate Groot",
+                "price": 3200,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Peliculas"],
+                "stock": 6,
+                "image": "https://i.ibb.co/9VCkf6D/mate-Groot.jpg"
+            },
+        
+            {
+                "id": 5,
+                "name": "Mate DeadPool",
+                "price": 3000,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Peliculas"],
+                "stock": 6,
+                "image": "https://i.ibb.co/vL2LxZc/mate-deadpool.jpg"
+            },
+        
+            {
+                "id": 6,
+                "name": "Mate Naruto",
+                "price": 3800,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Anime"],
+                "stock": 3,
+                "image": "https://i.ibb.co/yXRRF6J/Mate2.png"
+            },
+        
+            {
+                "id": 7,
+                "name": "Mate Vecna",
+                "price": 2800,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Peliculas"],
+                "stock": 2,
+                "image": "https://i.ibb.co/TwZ4mQG/mate-vecna.jpg"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "category": "Ropa",
+        "imagen": "https://i.ibb.co/bNdJbFB/Ropa-400x400.png",
+        "aalt": "remera negra",
+        "products":[
+            {
+                "id": 1,
+                "name": "Remera Kakashi",
+                "price": 3500,
+                "descripcion": "Remera negra de algodon premium Talle XL",
+                "categories": ["Ropa", "Anime"],
+                "stock": 5,
+                "image": "https://i.ibb.co/G2KnZqc/remera-Kakashi.png"
+            },
+        
+            {
+                "id": 2,
+                "name": "Remera One Piece",
+                "price": 3000,
+                "descripcion": "Remera negra de algodon premium Talle XL",
+                "categories": ["Ropa", "Anime"],
+                "stock": 4,
+                "image": "https://i.ibb.co/mNM5Hp2/remera-One-Piece.png"
+            },
+            {
+                "id": 8,
+                "name": "Remera Kimetsu",
+                "price": 3500,
+                "descripcion": "Remera negra de algodon premium Talle XL",
+                "categories": ["Ropa", "Anime"],
+                "stock": 2,
+                "image": "https://i.ibb.co/pbYpwy4/Remera-Kimetsu.png"
+            },
+        
+            {
+                "id": 9,
+                "name": "Remera Itachi",
+                "price": 3200,
+                "descripcion": "Remera negra de algodon premium Talle XL",
+                "categories": ["Ropa", "Anime"],
+                "stock": 8,
+                "image": "https://i.ibb.co/2ySfkP3/Remera-Itachi.png"
+            },
+        
+            {
+                "id": 10,
+                "name": "Pollera K-POP Style",
+                "price": 4000,
+                "descripcion": "Pollera talle unico, blanca y negra / rosada y blanco",
+                "categories": ["Ropa"],
+                "stock": 2,
+                "image": "https://i.ibb.co/x7F44Kh/Polleras-1.png"
+            },
+        
+            {
+                "id": 11,
+                "name": "Pollera Anime Sublimada",
+                "price": 4200,
+                "descripcion": "Pollera talle unico, sublimada de kimetsu no yaiba",
+                "categories": ["Ropa", "Anime"],
+                "stock": 3,
+                "image": "https://i.ibb.co/z4jQCHQ/Polleras-4.png"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "category":"Anime",
+        "imagen":"https://i.ibb.co/CH46z2B/Anime-400x400.png",
+        "products":[
+            {
+                "id": 1,
+                "name": "Remera Kakashi",
+                "price": 3500,
+                "descripcion": "Remera negra de algodon premium Talle XL",
+                "categories": ["Ropa", "Anime"],
+                "stock": 5,
+                "image": "https://i.ibb.co/G2KnZqc/remera-Kakashi.png"
+            },
+        
+            {
+                "id": 2,
+                "name": "Remera One Piece",
+                "price": 3000,
+                "descripcion": "Remera negra de algodon premium Talle XL",
+                "categories": ["Ropa", "Anime"],
+                "stock": 4,
+                "image": "https://i.ibb.co/mNM5Hp2/remera-One-Piece.png"
+            },
+        
+            {
+                "id": 3,
+                "name": "Mate Snorlax",
+                "price": 3000,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Anime"],
+                "stock": 5,
+                "image": "https://i.ibb.co/Bfw41yY/mate-Snorlax.png"
+            },
+        
+            {
+                "id": 6,
+                "name": "Mate Naruto",
+                "price": 3800,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Anime"],
+                "stock": 3,
+                "image": "https://i.ibb.co/yXRRF6J/Mate2.png"
+            },
+        
+            {
+                "id": 8,
+                "name": "Remera Kimetsu",
+                "price": 3500,
+                "descripcion": "Remera negra de algodon premium Talle XL",
+                "categories": ["Ropa", "Anime"],
+                "stock": 2,
+                "image": "https://i.ibb.co/pbYpwy4/Remera-Kimetsu.png"
+            },
+        
+            {
+                "id": 9,
+                "name": "Remera Itachi",
+                "price": 3200,
+                "descripcion": "Remera negra de algodon premium Talle XL",
+                "categories": ["Ropa", "Anime"],
+                "stock": 8,
+                "image": "https://i.ibb.co/2ySfkP3/Remera-Itachi.png"
+            },
+        
+            {
+                "id": 11,
+                "name": "Pollera Anime Sublimada",
+                "price": 4200,
+                "descripcion": "Pollera talle unico, sublimada de kimetsu no yaiba",
+                "categories": ["Ropa", "Anime"],
+                "stock": 3,
+                "image": "https://i.ibb.co/z4jQCHQ/Polleras-4.png"
+            },
+        
+            {
+                "id": 14,
+                "name": "Llavero Naruto",
+                "price": 1600,
+                "descripcion": "Llavero de Goma, Anime Nauto, varios personajes",
+                "categories": ["Llaveros", "Anime"],
+                "stock": 8,
+                "image": "https://i.ibb.co/pdcvHYz/llaveros-Naruto.jpg"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "category":"Peliculas",
+        "imagen":"https://i.ibb.co/7CzmpZb/Peliculas-400x400.png",
+        "products":[
+            {
+                "id": 4,
+                "name": "Mate Groot",
+                "price": 3200,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Peliculas"],
+                "stock": 6,
+                "image": "https://i.ibb.co/9VCkf6D/mate-Groot.jpg"
+            },
+        
+            {
+                "id": 5,
+                "name": "Mate DeadPool",
+                "price": 3000,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Peliculas"],
+                "stock": 6,
+                "image": "https://i.ibb.co/vL2LxZc/mate-deadpool.jpg"
+            },
+        
+            {
+                "id": 7,
+                "name": "Mate Vecna",
+                "price": 2800,
+                "descripcion": "Mate impreson en 3D pintado y laqueado a mano",
+                "categories": ["IMP3D", "Peliculas"],
+                "stock": 2,
+                "image": "https://i.ibb.co/TwZ4mQG/mate-vecna.jpg"
+            },
+        
+            {
+                "id": 12,
+                "name": "Llavero Heroes",
+                "price": 1600,
+                "descripcion": "Llavero de Goma, Heroes DC/MARVEL",
+                "categories": ["Llaveros", "Peliculas"],
+                "stock": 3,
+                "image": "https://i.ibb.co/n8KtL8t/llaveros-Heroes.jpg"
+            },
+        
+            {
+                "id": 13,
+                "name": "Llavero Mario Bross",
+                "price": 1600,
+                "descripcion": "Llavero de Goma, de la pelicula y juego Mario Bross",
+                "categories": ["Llaveros", "Peliculas"],
+                "stock": 2,
+                "image": "https://i.ibb.co/jrMZy1q/llavero-Mario.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": 19,
+        "category":"Llaveros",
+        "imagen":"https://i.ibb.co/GVYJm5C/llaveros-1.png",
+        "products":[
+            {
+                "id": 12,
+                "name": "Llavero Heroes",
+                "price": 1600,
+                "descripcion": "Llavero de Goma, Heroes DC/MARVEL",
+                "categories": ["Llaveros", "Peliculas"],
+                "stock": 3,
+                "image": "https://i.ibb.co/jrMZy1q/llavero-Mario.jpg"
+            },
+        
+            {
+                "id": 13,
+                "name": "Llavero Mario Bross",
+                "price": 1600,
+                "descripcion": "Llavero de Goma, de la pelicula y juego Mario Bross",
+                "categories": ["Llaveros", "Peliculas"],
+                "stock": 2,
+                "image": "https://i.ibb.co/n8KtL8t/llaveros-Heroes.jpg"
+            },
+        
+            {
+                "id": 14,
+                "name": "Llavero Naruto",
+                "price": 1600,
+                "descripcion": "Llavero de Goma, Anime Nauto, varios personajes",
+                "categories": ["Llaveros", "Anime"],
+                "stock": 8,
+                "image": "https://i.ibb.co/pdcvHYz/llaveros-Naruto.jpg"
+            }
+        ]
+    }
+]

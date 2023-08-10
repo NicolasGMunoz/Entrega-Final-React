@@ -1,0 +1,72 @@
+body{
+    background-color: #210436;
+}
+
+.homeh3{
+    padding: 10%;
+    text-align: center;
+    color: rgb(182, 178, 178);
+}
+
+.bc{
+    background-color: #201C35;
+}
+
+.imagen{
+    margin-right: 500px;
+}
+
+
+.buricho{
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    
+}
+
+.botones{
+    padding: 1%;
+    display: inline;
+    color: white;
+    border: solid gray 1px;
+}
+
+.carrito{
+   position: absolute;
+   right: 0;
+   margin-right: 90px;
+   padding: 8%;
+}
+
+.carritoNumber{
+    position: absolute;
+    right: 0;
+    padding: 10%;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 11vh;
+}
+
+.cardCont{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cardImage{
+    width: 230px;
+    max-height: 230px;
+    margin-top: 15px;
+}
+
+.productsCardImg{
+    justify-content: center;
+    width: 280px;
+    max-height: 280px;
+    margin-top: 5px;
+}
