@@ -75,3 +75,20 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.contenidoComprobante {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #bdeb92;
+    text-align: center;
+  }
+
+  .numeroTicket{
+    border: solid #201C35 2px;
+  }

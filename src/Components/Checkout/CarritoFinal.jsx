@@ -1,11 +1,14 @@
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "../../context/CartContext";
-import Box from '@mui/material/Box';
-import { Button, Card, CardContent, Grid, Typography } from "@mui/material";
+import { Button, Card, CardContent, Typography } from "@mui/material";
 import TextField from '@mui/material/TextField';
+import Comprobante from "./Comprobante";
 
-const CarritoFinal = () => {
+const CarritoFinal = ({children}) => {
     const { cart, removeItemCart, addCteInfo } = useContext(CartContext);
+    const [sel, setSel] = useState(false);
+
+    
 
     const [total, setTotal] = useState(0);
     useEffect(() => {
@@ -19,6 +22,8 @@ const CarritoFinal = () => {
         suma();
 
     }, [cart.items])
+
+    const randomNumber = Math.floor(Math.random() * (1000 - total + 1)) + total;
 
 
     const [cteInfo, setCteInfo] = useState({
@@ -40,6 +45,10 @@ const CarritoFinal = () => {
     const enviarCambio = (event) => {
         event.preventDefault();
         addCteInfo(cteInfo);
+    }
+
+    const handleClick = () => {
+        setSel((prev) => !prev)
     }
 
 
@@ -122,10 +131,10 @@ const CarritoFinal = () => {
                             <div className="hola"><Typography variant='p' color="white" padding={"15px"}>Dirección: {cteInfo.adress} </Typography></div>
                             <div className="hola"><Typography variant='p' color="white" padding={"15px"}>Productos: {cart.items.length}</Typography></div>
                             <div className="hola"><Typography variant='p' color="white" padding={"15px"}>Monto Final: ${total}</Typography></div>
-                            <div className="hola"><Button>Comprar</Button></div>
+                            <div className="hola"><Button onClick={handleClick}>Comprar</Button></div>
                         </CardContent>
                     </Card>
-
+                        <Comprobante ticket={randomNumber} cte={cteInfo} abrir={sel} setAbrir={setSel} cantProduct={cart.items.length} total={total}>   {children}</Comprobante>
                 </div>
 
             )}
