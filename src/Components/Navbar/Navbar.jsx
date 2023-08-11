@@ -3,8 +3,14 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 import nimutech from '../../Assets/nimutech100.jpg'
 import { NavLink } from 'react-router-dom';
+import { useContext } from 'react';
+import { CartContext } from '../../context/CartContext';
+
 
 const Navbar = () => {
+    const {cart} = useContext(CartContext)
+    console.log(cart);
+
     return (<>
 
         <AppBar position='static'>
@@ -25,10 +31,7 @@ const Navbar = () => {
                 </NavLink>
                 </div>
 
-                <ShoppingCartIcon className='carrito' />
-                <Typography className='carritoNumber'>
-                    0
-                </Typography>
+                <Button sx={{color: "white"}}><ShoppingCartIcon/>{cart.length}</Button>
 
             </Toolbar>
         </AppBar>

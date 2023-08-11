@@ -14,7 +14,6 @@ const useDataBase = (collectionN) =>{
                 const dataBase = getFirestore()
                 const queryS = await getDocs(collection(dataBase, collectionN))
                 const newData = queryS.docs.map((doc)=>({id: doc.id, ...doc.data()}))
-                console.log(newData);
                 setData(newData);
                 setLoading(false)
             }
