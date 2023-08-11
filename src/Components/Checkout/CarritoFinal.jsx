@@ -47,8 +47,17 @@ const CarritoFinal = ({children}) => {
         addCteInfo(cteInfo);
     }
 
+ 
+
+
+
+
+
     const handleClick = () => {
-        setSel((prev) => !prev)
+        setSel((prev) => !prev);
+        setTimeout(() => {
+            window.location.reload();
+          }, 5000);
     }
 
 
@@ -131,7 +140,7 @@ const CarritoFinal = ({children}) => {
                             <div className="hola"><Typography variant='p' color="white" padding={"15px"}>Dirección: {cteInfo.adress} </Typography></div>
                             <div className="hola"><Typography variant='p' color="white" padding={"15px"}>Productos: {cart.items.length}</Typography></div>
                             <div className="hola"><Typography variant='p' color="white" padding={"15px"}>Monto Final: ${total}</Typography></div>
-                            <div className="hola"><Button onClick={handleClick}>Comprar</Button></div>
+                            <div className="hola"><Button onClick={handleClick }>Comprar</Button></div>
                         </CardContent>
                     </Card>
                         <Comprobante ticket={randomNumber} cte={cteInfo} abrir={sel} setAbrir={setSel} cantProduct={cart.items.length} total={total}>   {children}</Comprobante>
