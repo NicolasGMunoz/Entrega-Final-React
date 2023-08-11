@@ -70,3 +70,8 @@ body{
     max-height: 280px;
     margin-top: 5px;
 }
+
+.hola{
+    display: flex;
+    justify-content: center;
+}

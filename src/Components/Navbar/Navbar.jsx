@@ -9,7 +9,6 @@ import { CartContext } from '../../context/CartContext';
 
 const Navbar = () => {
     const {cart} = useContext(CartContext)
-    console.log(cart);
 
     return (<>
 
@@ -31,7 +30,7 @@ const Navbar = () => {
                 </NavLink>
                 </div>
 
-                <Button sx={{color: "white"}}><ShoppingCartIcon/>{cart.length}</Button>
+                <Button sx={{color: "white"}} component={NavLink} to="/cart"><ShoppingCartIcon/>{cart.items.length}</Button>
 
             </Toolbar>
         </AppBar>

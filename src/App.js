@@ -1,7 +1,7 @@
 import './App.css';
 import Categories from './Components/Categories/Categories';
 import CategoryProductList from './Components/Categories/CategoryProductList';
-
+import CarritoFinal from './Components/Checkout/CarritoFinal';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import ProductList from './Components/Products/ProductList';
@@ -21,6 +21,7 @@ function App() {
           <Route exact path="/products" element={<ProductList />} />
           <Route exact path="/categories" element={<Categories />} />
           <Route exact path="/categories/:categoryId" element={<CategoryProductList />} />
+          <Route exact path="/cart" element={<CarritoFinal/>}/>
         </Routes>
       </Router>
 
